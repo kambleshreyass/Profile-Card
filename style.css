@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: futura;
+  color: white;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main-container{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#card{
+  height: 530px;
+  width: 300px;
+  background-color: #494747;
+  border-radius: 15px;
+}
+#profile-pic{
+  height: 100px;
+  width: 100%;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#profile-pic img{
+  height: 75px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+}
+#card h1{
+  text-align: center;
+}
+#card p{
+  text-align: center;
+  padding: 10px;
+  font-family: Poppins SemiBold;
+  font-size: 13px;
+}
+.p-1{
+  color: yellow;
+  font-family: Poppins ;
+}
+#boxes{
+  height: 50px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.box1{
+  height: 40px;
+  width: 80%;
+  background-color: rgb(128, 120, 120);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box1:hover{
+  background-color: rgb(160, 148, 148);
+}
+.box1 h3{
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: Poppins SemiBold;
+}
+#cursor{
+  height: 20px;
+  width: 20px;
+  background-color: salmon;
+  border-radius: 50%;
+  position: fixed;
+  display: none;
+  z-index: 9;
+}
+.cursor-1{
+  height: 10px;
+  width: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  position: fixed;
+  display: none;
+  z-index: 9;
+}
